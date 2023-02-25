@@ -17,6 +17,6 @@ app.use('/api/notes',require('./routes/Noteroute'));
 // {
 //     app.use(express.static())
 // }
-app.listen(5000,(req,res)=>{
+app.listen(PORT,(req,res)=>{
     console.log("gfgfbgfsd");
 })

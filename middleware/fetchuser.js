@@ -3,7 +3,6 @@ const keysecure = process.env.JWTSTRING;
 const JWTSTRING = "this$mineString";
 
 const fetchuser = (req,res,next)=>{
-    console.log(keysecure);
     const token = req.header('auth-token');
     if(!token)
     {

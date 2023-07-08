@@ -18,5 +18,5 @@ app.use('/api/notes',require('./routes/Noteroute'));
 //     app.use(express.static())
 // }
 app.listen(PORT,(req,res)=>{
-    console.log("gfgfbgfsd");
+    console.log("listening in port :",PORT);
 })

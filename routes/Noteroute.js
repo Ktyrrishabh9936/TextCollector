@@ -21,7 +21,7 @@ router.post('/addnote',fetchuser,async(req,res)=>{
     const note = new Note({
        title,desc,user:req.user.id
     });
-
+    console.log(note);
     const notesaver = await note.save();
     console.log(notesaver);
     res.json(note);
